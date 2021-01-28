@@ -49,12 +49,6 @@ ol {
   /* outline: 2px solid coral; */
 }
 
-.substrate {
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* ======================== HEADER ========================*/
 
 .hat {
@@ -342,12 +336,10 @@ ol {
 .socials:hover .icon-box,
 .socials:focus .icon-box {
   background-color: var(--button-hover-color);
-  /* fill: var(--text-title-button-color);*/
 }
 
 .socials:hover .team-icon,
 .socials:focus .team-icon {
-  /* background-color: var(--button-hover-color); */
   fill: var(--text-title-button-color);
 }
 
@@ -375,7 +367,8 @@ ol {
   margin-right: 30px;
 }
 
-.icon-website:hover .regular-clients {
+.icon-website:hover .regular-clients,
+.icon-website:focus .regular-clients {
   fill: var(--button-hover-color);
   border-color: var(--button-hover-color);
 }
@@ -495,9 +488,6 @@ ol {
 /* ========================FOOTER ========================*/
 
 .footer-background {
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-footer);
