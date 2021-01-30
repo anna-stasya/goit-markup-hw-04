@@ -324,7 +324,6 @@ a {
 }
 
 .icon-group {
-  margin-right: -10px;
   width: 206px;
   height: 44px;
 }
@@ -517,6 +516,7 @@ a {
 
 .footer-block {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-left {
@@ -561,9 +561,6 @@ a {
 }
 
 /* ========================JOIN ========================*/
-
-.footer-join {
-}
 
 .join-title {
   font-weight: 700;
