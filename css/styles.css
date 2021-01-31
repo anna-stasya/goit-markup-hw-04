@@ -58,6 +58,9 @@ a {
 .hat {
   display: flex;
   align-items: center;
+}
+
+.container.hat {
   border-bottom: 1px solid #ececec;
 }
 
@@ -396,14 +399,6 @@ a {
   margin-bottom: 34px;
   min-width: 611px;
 }
-
-/* .content::after {
-  content: "";
-  display: block;
-  height: 1px;
-  background-color: #ececec;
-  margin: auto;
-} */
 
 .gallery {
   margin-bottom: 16px;
